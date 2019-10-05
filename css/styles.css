@@ -6,11 +6,52 @@
 
 .flex-container > div {
   display: flex;
-  width: 33%;
-  height: 200px;
+  width: calc(100%/3);
+  height: 255px;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  /* line-height: 75px;
+  font-size: 30px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.usernameInput {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  color: white;
+}
+
+.usernameInput:active {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  color: white;
+}
+
+.numberInput {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  color: white;
+}
+
+.numberInput:active {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  color: white;
+}
+
+input:-webkit-autofill {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  color: white;
+}
+
+.btn {
+  color: white;
 }
 
 .white {
@@ -51,4 +92,11 @@
 
 .magenta {
   background-color: #81007f;
+}
+
+h1 {
+  text-align: center;
+  height: 100px;
+  padding-top: 30px;
+  font-family: "century gothic";
 }
