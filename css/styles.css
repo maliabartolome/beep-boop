@@ -35,6 +35,10 @@
   color: white;
   height: inherit;
   width: auto;
+  display: flex;
+  position: inherit;
+
+  justify-content: center;
 }
 
 .numberInput {
