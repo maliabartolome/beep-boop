@@ -34,6 +34,7 @@
 #result {
   color: white;
   height: inherit;
+  width: auto;
 }
 
 .numberInput {
