@@ -13,6 +13,8 @@
   font-size: 30px; */
   justify-content: center;
   align-items: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 .usernameInput {
@@ -27,6 +29,11 @@
   height: 100%;
   background-color: inherit;
   color: white;
+}
+
+#result {
+  color: white;
+  height: inherit;
 }
 
 .numberInput {
@@ -54,6 +61,10 @@ input:-webkit-autofill {
   color: white;
 }
 
+.btn:hover {
+  color: white;
+}
+
 .white {
   background-color: #FFFFFF;
 }
@@ -76,6 +87,7 @@ input:-webkit-autofill {
 
 .red {
   background-color: #fe0000;
+  color: white;
 }
 
 .royal {
@@ -100,3 +112,7 @@ h1 {
   padding-top: 30px;
   font-family: "century gothic";
 }
+
+/* #result {
+  display: none;
+} */
