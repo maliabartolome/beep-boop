@@ -1,14 +1,13 @@
 # _Beep Boop Project_
 
-#### _A site that will provide suggestions based on user inputs to determine what language the user should learn, Dated: September 22, 2019_
+#### _A site that where users input a number to return a range of numbers. Dated: October 5, 2019_
 
 #### By _**Malia Bartolome**_
 
 ## Setup/Installation Requirements
-* _Clone [Beep-Boop](https://github.com/maliabartolome/beep-boop.git) from Git Hub_
+* _Clone the [Beep-Boop](https://github.com/maliabartolome/beep-boop.git) repository from Git Hub_
 * _Download the zip file and move the directory to your desktop_
-* _Open _
-* _Download/Clone repository through GitHub_
+* _Open all files in the Beep-Boop directory through Atom_
 * _Start coding_
 * _Commit and push_
 
@@ -16,7 +15,6 @@
 * _Numbers that contain a 1: all digits are replaced (all digits) with "Beep"_
 * _Numbers that contain a 2: all digits are replaced (all digits) with "Boop"_
 * _Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry -- Friend"_
-
 
 ## No known bugs at this time
 
